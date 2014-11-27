@@ -1,0 +1,20 @@
+PODS:
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
+    - CocoaLumberjack/Core
+  - EDColor (0.4.0)
+  - MBProgressHUD (0.9)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - EDColor
+  - MBProgressHUD
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 205769c032b5fef85b92472046bcc8b7e7c8a817
+  EDColor: bcdb8600b7a456f4408ce1d7e7fc001588919254
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+
+COCOAPODS: 0.35.0
