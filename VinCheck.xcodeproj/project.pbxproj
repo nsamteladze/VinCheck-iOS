@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82D8FC501A26EF930043C07B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D8FC4F1A26EF930043C07B /* main.m */; };
+		82D8FC531A26EF930043C07B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D8FC521A26EF930043C07B /* AppDelegate.m */; };
+		82D8FC561A26EF930043C07B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D8FC551A26EF930043C07B /* ViewController.m */; };
+		82D8FC591A26EF930043C07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D8FC571A26EF930043C07B /* Main.storyboard */; };
+		82D8FC5B1A26EF930043C07B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D8FC5A1A26EF930043C07B /* Images.xcassets */; };
+		82D8FC5E1A26EF930043C07B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D8FC5C1A26EF930043C07B /* LaunchScreen.xib */; };
+		82D8FC6A1A26EF930043C07B /* VinCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D8FC691A26EF930043C07B /* VinCheckTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D8FC641A26EF930043C07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D8FC421A26EF930043C07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D8FC491A26EF930043C07B;
+			remoteInfo = VinCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82D8FC4A1A26EF930043C07B /* VinCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D8FC4E1A26EF930043C07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D8FC4F1A26EF930043C07B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82D8FC511A26EF930043C07B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82D8FC521A26EF930043C07B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82D8FC541A26EF930043C07B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82D8FC551A26EF930043C07B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82D8FC581A26EF930043C07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82D8FC5A1A26EF930043C07B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82D8FC5D1A26EF930043C07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		82D8FC631A26EF930043C07B /* VinCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D8FC681A26EF930043C07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D8FC691A26EF930043C07B /* VinCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinCheckTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D8FC471A26EF930043C07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8FC601A26EF930043C07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D8FC411A26EF930043C07B = {
+			isa = PBXGroup;
+			children = (
+				82D8FC4C1A26EF930043C07B /* VinCheck */,
+				82D8FC661A26EF930043C07B /* VinCheckTests */,
+				82D8FC4B1A26EF930043C07B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D8FC4B1A26EF930043C07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D8FC4A1A26EF930043C07B /* VinCheck.app */,
+				82D8FC631A26EF930043C07B /* VinCheckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D8FC4C1A26EF930043C07B /* VinCheck */ = {
+			isa = PBXGroup;
+			children = (
+				82D8FC511A26EF930043C07B /* AppDelegate.h */,
+				82D8FC521A26EF930043C07B /* AppDelegate.m */,
+				82D8FC541A26EF930043C07B /* ViewController.h */,
+				82D8FC551A26EF930043C07B /* ViewController.m */,
+				82D8FC571A26EF930043C07B /* Main.storyboard */,
+				82D8FC5A1A26EF930043C07B /* Images.xcassets */,
+				82D8FC5C1A26EF930043C07B /* LaunchScreen.xib */,
+				82D8FC4D1A26EF930043C07B /* Supporting Files */,
+			);
+			path = VinCheck;
+			sourceTree = "<group>";
+		};
+		82D8FC4D1A26EF930043C07B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D8FC4E1A26EF930043C07B /* Info.plist */,
+				82D8FC4F1A26EF930043C07B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82D8FC661A26EF930043C07B /* VinCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				82D8FC691A26EF930043C07B /* VinCheckTests.m */,
+				82D8FC671A26EF930043C07B /* Supporting Files */,
+			);
+			path = VinCheckTests;
+			sourceTree = "<group>";
+		};
+		82D8FC671A26EF930043C07B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D8FC681A26EF930043C07B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D8FC491A26EF930043C07B /* VinCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D8FC6D1A26EF930043C07B /* Build configuration list for PBXNativeTarget "VinCheck" */;
+			buildPhases = (
+				82D8FC461A26EF930043C07B /* Sources */,
+				82D8FC471A26EF930043C07B /* Frameworks */,
+				82D8FC481A26EF930043C07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VinCheck;
+			productName = VinCheck;
+			productReference = 82D8FC4A1A26EF930043C07B /* VinCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82D8FC621A26EF930043C07B /* VinCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D8FC701A26EF930043C07B /* Build configuration list for PBXNativeTarget "VinCheckTests" */;
+			buildPhases = (
+				82D8FC5F1A26EF930043C07B /* Sources */,
+				82D8FC601A26EF930043C07B /* Frameworks */,
+				82D8FC611A26EF930043C07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D8FC651A26EF930043C07B /* PBXTargetDependency */,
+			);
+			name = VinCheckTests;
+			productName = VinCheckTests;
+			productReference = 82D8FC631A26EF930043C07B /* VinCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D8FC421A26EF930043C07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cocos Games";
+				TargetAttributes = {
+					82D8FC491A26EF930043C07B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					82D8FC621A26EF930043C07B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 82D8FC491A26EF930043C07B;
+					};
+				};
+			};
+			buildConfigurationList = 82D8FC451A26EF930043C07B /* Build configuration list for PBXProject "VinCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82D8FC411A26EF930043C07B;
+			productRefGroup = 82D8FC4B1A26EF930043C07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D8FC491A26EF930043C07B /* VinCheck */,
+				82D8FC621A26EF930043C07B /* VinCheckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D8FC481A26EF930043C07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8FC591A26EF930043C07B /* Main.storyboard in Resources */,
+				82D8FC5E1A26EF930043C07B /* LaunchScreen.xib in Resources */,
+				82D8FC5B1A26EF930043C07B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8FC611A26EF930043C07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D8FC461A26EF930043C07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8FC561A26EF930043C07B /* ViewController.m in Sources */,
+				82D8FC531A26EF930043C07B /* AppDelegate.m in Sources */,
+				82D8FC501A26EF930043C07B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8FC5F1A26EF930043C07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8FC6A1A26EF930043C07B /* VinCheckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D8FC651A26EF930043C07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D8FC491A26EF930043C07B /* VinCheck */;
+			targetProxy = 82D8FC641A26EF930043C07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82D8FC571A26EF930043C07B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D8FC581A26EF930043C07B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82D8FC5C1A26EF930043C07B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D8FC5D1A26EF930043C07B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82D8FC6B1A26EF930043C07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82D8FC6C1A26EF930043C07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D8FC6E1A26EF930043C07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VinCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82D8FC6F1A26EF930043C07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VinCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82D8FC711A26EF930043C07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VinCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinCheck.app/VinCheck";
+			};
+			name = Debug;
+		};
+		82D8FC721A26EF930043C07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VinCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinCheck.app/VinCheck";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D8FC451A26EF930043C07B /* Build configuration list for PBXProject "VinCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D8FC6B1A26EF930043C07B /* Debug */,
+				82D8FC6C1A26EF930043C07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D8FC6D1A26EF930043C07B /* Build configuration list for PBXNativeTarget "VinCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D8FC6E1A26EF930043C07B /* Debug */,
+				82D8FC6F1A26EF930043C07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82D8FC701A26EF930043C07B /* Build configuration list for PBXNativeTarget "VinCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D8FC711A26EF930043C07B /* Debug */,
+				82D8FC721A26EF930043C07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D8FC421A26EF930043C07B /* Project object */;
+}
